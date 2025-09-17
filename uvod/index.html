@@ -98,7 +98,36 @@
             <br><br>
 
             <label for="color">Oblibena barva?</label><br>
-                <input type="color" required>
+            <input type="color" id="color" required><br><br>
+
+            <label for="pic">Want to send a <abbr title="Feet pic">picture</abbr>? Optional</label><br>
+            <input type="file" id="pic" required><br><br>
+
+            <label for="time">Pošli aktualní čas</label>
+            <input type="datetime-local" id="time"><br><br>
+
+            <label for="url">Pošli tvoje fav anime</label>
+            <input type="url" id="url" required><br><br>
+
+            <label for="gender">Pohlaví</label><br>
+            <input type="radio" id="M" name="gender">
+            <label for="M">Muž</label><br>
+            <input type="radio" id="F" name="gender">
+            <label for="F">Žena</label><br>
+            <input type="radio" id="V" name="gender">
+            <label for="V">Vlastní</label>
+            <input type="text" id="V"><br><br>
+
+            <label for="ssn">Napiš své rodné číslo</label>
+            <input type="number" id="ssn" required>/<input type="number" id="ssn" required><br><br>
+
+            <label for="bank">Bankovní údaje</label><br>
+            <ul>
+                <li>Číslo účtu <input type="text" required></li>
+                <li>heslo <input type="text" required></li>
+            </ul>
+
+            <br><br><input type="submit">
 
         </form>
 
