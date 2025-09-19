@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(221, 248, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.styles {
+    background-color: black;
+    border: 20cm solid hotpink;
+    color: white;
+}
+
+.form {
+    border: 10px ridge aqua;
+    padding: 17px;
+}

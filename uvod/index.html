@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>1. HTML</title>
 
     <!--Favicon-->
@@ -35,6 +36,7 @@
 
        <br>
 
+        <div class="styles">
        <b>tucne</b>
        <strong>dulezite</strong>
        <i>kurziva</i>
@@ -45,6 +47,7 @@
        <ins>vlozeny text</ins>
        <sub>dole</sub>
        <sup>nahore</sup>
+        </div>
 
        <p>The <abbr title="World health departure">WHO</abbr> was founded in XXXX</p>
 
@@ -82,9 +85,10 @@
             <li>Groot</li>
         </ul>
 
-        <h2>Formular</h2>
+        <form class="form">
 
-        <form>
+            <h2>Formular</h2>
+
 
             <label for="name">Jmeno: </label>
             <input type="text" id="name" required>
@@ -93,14 +97,14 @@
             <input type="text" id="surename" required>
             <br><br>
 
-            <label for="email"><abbr title="xxxx@xxx.x">Email: </abbr></label>
+            <label for="email">Email: </label>
             <input type="email" id="email" required>
             <br><br>
 
             <label for="color">Oblibena barva?</label><br>
             <input type="color" id="color" required><br><br>
 
-            <label for="pic">Want to send a <abbr title="Feet pic">picture</abbr>? Optional</label><br>
+            <label for="pic">Want to send a picture? Optional</label><br>
             <input type="file" id="pic" required><br><br>
 
             <label for="time">Pošli aktualní čas</label>
