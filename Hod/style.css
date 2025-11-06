@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+header, section {
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-block: 20px;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+header {
+    background-image: url(https://plus.unsplash.com/premium_photo-1661400100934-1ba03c96cc14?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=868);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uvod {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 10vw;
+}
+
+.uvod h1 {
+    font-size: 3rem;
+}
+
+.uvod p {
+    line-height: 2rem;
+    margin-block: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    font-weight: 700;
+}
+
+.uvod button {
+    background-color: blueviolet;
+}
+
+.sec-2 {
+    display: flex;
+}
+
+.div {
+    width: 50vw;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #000000;
+    padding-inline: 10%;    
+}
+
+.div h1 {
+    font-size: 3rem;
+}
+
+.div2 {
+    background-image: url(https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    background-color: #00000000;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+.sec-1 {
+    background-color: #2727ff;
+    display: flex;
+}
+
+.sec-div-1 {
+    width: 33vw;
+    padding: 10rem;
+    font-size: 4rem;
+}
+
+.sec-div-2 {
+    width: 66vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    padding: 10rem;
+}
+
+.sec-div-2 div h1 {
+    font-size: 2rem;
+}
+
+.op {
+    height: 100vh;
+    background-color: #0000007a;
+}
