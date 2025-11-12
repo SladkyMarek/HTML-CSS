@@ -717,7 +717,3 @@ ins {
 .img12 {
     width: 82px;
 }
-
-.img13 {
-    width: calc(100vw - 35px);
-}
